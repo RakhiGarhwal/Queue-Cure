@@ -1,0 +1,40 @@
+{
+  "patients": [
+    {
+      "token": 1,
+      "name": "Rakhi",
+      "status": "completed",
+      "addedAt": "5:52:32 PM"
+    },
+    {
+      "token": 2,
+      "name": "Saloni",
+      "status": "serving",
+      "addedAt": "5:52:37 PM"
+    },
+    {
+      "token": 3,
+      "name": "Shweta",
+      "status": "waiting",
+      "addedAt": "5:52:42 PM"
+    },
+    {
+      "token": 4,
+      "name": "Arya",
+      "status": "waiting",
+      "addedAt": "5:52:47 PM"
+    }
+  ],
+  "completedPatients": [
+    {
+      "token": 1,
+      "name": "Rakhi",
+      "status": "completed",
+      "addedAt": "5:52:32 PM",
+      "completedAt": "5:52:57 PM"
+    }
+  ],
+  "currentToken": 2,
+  "nextToken": 5,
+  "avgConsultTime": 10
+}
